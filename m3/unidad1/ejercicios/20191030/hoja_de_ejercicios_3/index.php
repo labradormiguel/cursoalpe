@@ -69,6 +69,10 @@
                 'url'=>'10.php',
                 'etiqueta'=>'Ejercicio 10',
             ],
+            [
+                'url'=>'11.php',
+                'etiqueta'=>'Ejercicio 11',
+            ],
         ];     
 
         $c = 0;
