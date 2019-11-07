@@ -33,46 +33,6 @@
                 'url'=>'1.php',
                 'etiqueta'=>'Ejercicio 1',
             ],
-            [
-                'url'=>'2.php',
-                'etiqueta'=>'Ejercicio 2',
-            ],
-            [
-                'url'=>'3.php',
-                'etiqueta'=>'Ejercicio 3',
-            ],
-            [
-                'url'=>'4.php',
-                'etiqueta'=>'Ejercicio 4',
-            ],
-            [
-                'url'=>'5.php',
-                'etiqueta'=>'Ejercicio 5',
-            ],
-            [
-                'url'=>'6.php',
-                'etiqueta'=>'Ejercicio 6',
-            ],
-            [
-                'url'=>'7.php',
-                'etiqueta'=>'Ejercicio 7',
-            ],
-            [
-                'url'=>'8.php',
-                'etiqueta'=>'Ejercicio 8',
-            ],
-            [
-                'url'=>'9.php',
-                'etiqueta'=>'Ejercicio 9',
-            ],
-            [
-                'url'=>'10.php',
-                'etiqueta'=>'Ejercicio 10',
-            ],
-            [
-                'url'=>'11.php',
-                'etiqueta'=>'Ejercicio 11',
-            ],
         ];     
 
         $c = 0;
