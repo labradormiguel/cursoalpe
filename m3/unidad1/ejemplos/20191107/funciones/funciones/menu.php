@@ -1,18 +1,34 @@
 <?php
 
-function crear_menu(){
+function crear_menu($menu){
     
-    $menu = [
-        "etiqueta"=>"url",
-        "etiqueta1"=>"url1",
-        ];
-    echo "<ul>";
-        foreach ($menu as $key => $value) { ?>
-
-        $salida.='<li><a href="'.$value.'">'.$key.'</a></li>'
+    $salida=[];
+    
+    foreach ($menu as $nombre => $contenido) {
+        $submenu = '<ul id="'.$nombre.'">';
+        foreach ($contenido as $etiqueta => $url) {
+        $submenu .='<li><a href="'.$url.'">'.$etiqueta.'</a></li>';
         }
-    echo "</ul>";
+        $submenu .= "</ul>";
+        $salida[$nombre]=$submenu;
+    }
+    
+    
     return $salida;
-   
+ 
 }
 
+$a = crear_menu([
+    "menu1"=>[
+        "etiqueta" => "url",
+        "etiqueta1" => "url1",
+        ],
+    "menu2"=>[
+        "etiqueta" => "url",
+        "etiqueta1" => "url1",
+        ],
+    ]
+);
+
+echo $a["menu1"];
+echo $a["menu2"];

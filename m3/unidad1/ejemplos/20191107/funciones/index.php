@@ -15,13 +15,17 @@ and open the template in the editor.
         </div>
         <div>
             <ul>
-                <li><
+                <li>
                     <a href="funciones/funcion.php">
                         Ejemplo 1
                     </a>
                 </li>
                 <li>Ejemplo 2</li>
-                <li>Ejemplo 3</li>
+                <li>
+                    <a href="funciones/menu.php">
+                        menu
+                    </a>
+                </li>
             </ul>
         </div>
     </body>
