@@ -33,10 +33,65 @@
                 'url'=>'1.php',
                 'etiqueta'=>'Ejercicio 1',
             ],
+            [
+                'url'=>'2.php',
+                'etiqueta'=>'Ejercicio 2',
+            ],
+            [
+                'url'=>'3.php',
+                'etiqueta'=>'Ejercicio 3',
+            ],
+            [
+                'url'=>'4.php',
+                'etiqueta'=>'Ejercicio 4',
+            ],
+            [
+                'url'=>'5.php',
+                'etiqueta'=>'Ejercicio 5',
+            ],
+            [
+                'url'=>'6.php',
+                'etiqueta'=>'Ejercicio 6',
+            ],
+            [
+                'url'=>'7.php',
+                'etiqueta'=>'Ejercicio 7',
+            ],
+            [
+                'url'=>'8.php',
+                'etiqueta'=>'Ejercicio 8',
+            ],
+            [
+                'url'=>'9.php',
+                'etiqueta'=>'Ejercicio 9',
+            ],
+            [
+                'url'=>'10.php',
+                'etiqueta'=>'Ejercicio 10',
+            ],
+            [
+                'url'=>'11.php',
+                'etiqueta'=>'Ejercicio 11',
+            ],
+            [
+                'url'=>'12.php',
+                'etiqueta'=>'Ejercicio 12',
+            ],
+            [
+                'url'=>'13.php',
+                'etiqueta'=>'Ejercicio 13',
+            ],
+            [
+                'url'=>'14.php',
+                'etiqueta'=>'Ejercicio 14',
+            ],
+            [
+                'url'=>'15.php',
+                'etiqueta'=>'Ejercicio 15',
+            ],
         ];     
 
         $c = 0;
-        //echo "<ul>";
         for ($c = 0; $c < count($enlaces); $c++) { ?>
             <ul>
                 <li>

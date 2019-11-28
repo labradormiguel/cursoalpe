@@ -41,6 +41,31 @@ and open the template in the editor.
                     Crear una función a la que le pases un array de números y los imprima
                 </a>
             </li>
+            <li>
+                <a href="7.php">
+                    Crear una función a la que le pases dos números y te escribe si son iguales
+                </a>
+            </li>
+            <li>
+                <a href="8.php">
+                    Crear una función a la que le pases dos números y te devuelve si son iguales
+                </a>
+            </li>
+            <li>
+                <a href="9.php">
+                    Crear una función a la que le pases un array y comprueba si hay números negativos
+                </a>
+            </li>
+            <li>
+                <a href="10.php">
+                    Crear una función que sume tres arrays
+                </a>
+            </li>
+            <li>
+                <a href="11.php">
+                    Crear una función que le pasas un array y lo imprime al revés
+                </a>
+            </li>
         </ol>
     </body>
 </html>

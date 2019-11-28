@@ -6,6 +6,7 @@
     </head>
     <body>
         <p>
+            <a href="index.php">Menú</a>
             <a href="4.php">Resetear</a>
         </p>
         <form>

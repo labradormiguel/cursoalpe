@@ -5,13 +5,16 @@
         <title></title>
     </head>
     <body>
-
+    <p>
+        <a href="index.php">Menú</a>
+        <a href="6.php">Resetear</a>
+    </p>
         <form>
-        <label>Primer número</label>
+        <label>Primer número </label>
         <input type="text" name="n1">
-        <label>Segundo número</label>
+        <label>Segundo número </label>
         <input type="text" name="n2">
-        <label>Tercer número</label>
+        <label>Tercer número </label>
         <input type="text" name="n3">
         <button name="envio">Enviar</button>
         </form>

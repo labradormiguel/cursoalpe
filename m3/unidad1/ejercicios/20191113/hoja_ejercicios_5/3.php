@@ -11,6 +11,7 @@ and open the template in the editor.
     </head>
     <body>
         <p>
+            <a href="index.php">Menú</a>
             <a href="3.php">Resetear</a>
         </p>
         <form>

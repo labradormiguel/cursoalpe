@@ -82,3 +82,39 @@ function comprobarNegativos($arg){
         
         return $salida;
     }
+    
+/*
+ * Suma arrays
+ */
+    
+function sumarArrays($arg1,$arg2,$arg3){
+    $suma=0;
+    $primero=0;
+    $segundo=0;
+    $tercero=0;
+    
+    foreach ($arg1 as $v) {
+        echo $v;        
+    }
+    
+    return $suma;
+    
+}
+
+/*
+ * Imprime al revés un array
+ */
+
+function vueltaArray($arg){
+$salida="";
+$numero="";
+
+    foreach ($arg as $v) {
+        
+        $salida= array_;
+        
+        //$salida.=$v;
+        //$v++;
+    }
+    return $salida;
+}

@@ -6,7 +6,8 @@
     </head>
     <body>
         <p>
-            <a href="4.php">Resetear</a>
+            <a href="index.php">Menú</a>
+            <a href="5.php">Resetear</a>
         </p>
         <form>
         <div>
