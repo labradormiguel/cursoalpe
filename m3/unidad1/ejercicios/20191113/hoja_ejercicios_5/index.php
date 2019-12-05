@@ -66,6 +66,21 @@ and open the template in the editor.
                     Crear una función que le pasas un array y lo imprime al revés
                 </a>
             </li>
+            <li>
+                <a href="12.php">
+                    Crear una función que le pasas un texto y lo imprime al revés
+                </a>
+            </li>
+            <li>
+                <a href="13.php">
+                    Crear una función que le pasas tres colores e imprime 3 divs de 100px de alto con el color del array pasado como argumento
+                </a>
+            </li>
+            <li>
+                <a href="16.php">
+                    (16) Crear una función que le pasas dos números y almacena el resultado en la variable global resultado
+                </a>
+            </li>
         </ol>
     </body>
 </html>

@@ -106,15 +106,32 @@ function sumarArrays($arg1,$arg2,$arg3){
  */
 
 function vueltaArray($arg){
-$salida="";
-$numero="";
+
+$salida = "";
+$longitud = sizeof($arg);
+    
+    for($i=$longitud-1;$i>=0;$i--){
+        echo $arg[$i];
+    }
+    
+}
+
+/*
+ * Array con tres colores que imprime tres divs de 100px
+ * con el color de fondo del array
+ */
+
+function divColores($arg){
 
     foreach ($arg as $v) {
+    
+        $salida = '<div style="height:100px;background-color:';
+        $salida.= $v;
+        $salida.= '">';
+        $salida.="</div>";
         
-        $salida= array_;
+        echo $salida;
         
-        //$salida.=$v;
-        //$v++;
     }
-    return $salida;
+    
 }
