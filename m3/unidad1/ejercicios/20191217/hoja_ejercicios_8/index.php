@@ -10,12 +10,6 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <?php
-            foreach($_POST as $indice=>$valor)
-            {
-                echo "<hr>$indice=>$valor";
-            }
-            
-        ?>
+            <a href="ejercicio1.php">Ejercicio 1</a>
     </body>
 </html>

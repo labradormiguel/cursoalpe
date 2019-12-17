@@ -1,0 +1,41 @@
+<?php
+
+$datos=[
+    "nombre"=>[
+        "id"=>"inombre",
+        "type"=>"text",
+    ],
+    "apellidos"=>[
+        "id"=>"iapellidos",
+        "type"=>"text",
+    ],
+    "edad"=>[
+        "id"=>"iedad",
+        "type"=>"number",
+    ],
+    "estado"=>[
+        "type"=>"radio",
+        "label"=>"Estado civil:",
+        "value"=>[
+            [
+                "value"=>"casado",
+                "label"=>"Casado",
+                "id"=>"icasado"
+            ],
+            [
+                "value"=>"soltero",
+                "label"=>"Soltero",
+                "id"=>"isoltero"
+            ],
+        ],
+   ],
+   "otros"=>[
+       "type"=>"checkbox",
+       "label"=>"Datos de interés;",
+       "value"=>[
+           [
+               "id"=>"carnet",
+           ],
+       ],
+   ],
+];
