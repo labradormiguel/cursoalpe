@@ -1,0 +1,7 @@
+1. select nombre_pi from pilotos where antiguedad_pi > 10 and servicios_pi = intercontinental;
+
+2. select nombre_res from reserva, vuelo where fecha_res = 08/09/2003 and asiento_res = 12A and origen_vu = Almería and destino = Dresde;
+
+3. select nombre_pi, nombre_aux from pilotos, auxiliares, vuelos where codigo_vu = IB0987;
+
+4. select count(nombre_res) from (vuelo inner join reserva on vuelo.codigo = reserva.codvuelo inner join pasajeros on reserva.idpasajero = pasajero.id) where vuelo.codigo_vu = IB0987 group by reserva.categoria_vu; 

@@ -1,0 +1,6 @@
+2. SELECT nombre_so, apellidos_so FROM (socios INNER JOIN cursos ON numero_so.socios = numero_so.cursos
+INNER JOIN hjjk WHERE nombre_cur.cursos = "Adultos Grupo 1"
+
+Π(nombre, apellidos) (σ socios X cursos socios.codigo = cursos.codsocio)
+
+4.
