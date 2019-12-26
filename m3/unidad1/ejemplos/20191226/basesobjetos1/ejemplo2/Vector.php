@@ -1,11 +1,12 @@
 <?php
 
-namespace clases;
 
 class Vector {
     
-    public function __construct($valores=[]) {
-        $this->setValores($valores);
+    public function __construct($valores) {
+        $this->valores = $valores;
+        $this->setModa();
+        $this->setMaximo();
     }
 
     
@@ -13,7 +14,7 @@ class Vector {
         return $this->maximo;
     }
 
-    private function setMaximo() {
+    public function setMaximo() {
         $this->maximo = max($this->getValores());
     }
 
@@ -32,7 +33,7 @@ class Vector {
         $this->setMaximo();
     }
     
-    private function setModa() {
+    public function setModa(){
         $this->moda=1;
     }
     

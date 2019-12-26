@@ -15,9 +15,10 @@ echo "<br />";
 echo "La moda es: " . $a->getModa();
 echo "<br />";
 
-$b= new Numeros([1,2,3]);
+$b= new Numeros([3,1,2,3,3,2,1,1,3,1,2,3,3,3]);
 $b->getModa();
 
-echo "La media es: " . $a->getMedia();
+$b->imprimirValores();
+echo "La media es: " . $b->getMedia();
 echo "<br />";
 echo "La moda es: " . $b->getModa();

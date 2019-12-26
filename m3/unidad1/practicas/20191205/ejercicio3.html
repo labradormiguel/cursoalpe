@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Ejercicio 3</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="ejercicio3.css">
+    </head>
+    <body>
+        <div id="Layer1">Formulario de ejemplo</div>
+        <div id="Layer2">
+        <form action="ejercicio3.php" method="get">
+        <div>
+            <label for="idnombre">
+                Nombre:
+            </label>
+            <input type="text" id="idnombre" name="nombre">
+        </div>
+        <div>
+            <label for="idapellidos">
+                Apellidos:
+            </label>
+            <input type="text" id="idapellidos" name="apellidos">
+        </div>
+        <div>
+            <label for="idedad">
+                Edad:
+            </label>
+            <input type="number" id="idnumber" name="edad">
+        </div>
+        <div>
+            <label for="idpoblacion">
+                Población:
+            </label>
+            <input type="text" id="idpoblacion" name="poblacion">
+        </div>
+        <div>
+            <label for="idsexo">
+                Sexo:
+            </label>
+            <input type="radio" id="idsexo" name="sexo" value="masculino">
+            <label>Masculino</label>
+            <input type="radio" id="idsexo" name="sexo" value="femenino">
+            <label>Femenino</label>
+        </div>
+            <div>
+                <button name="enviar" class="botones">
+                    Enviar
+                </button>
+                <button name="restablecer" class="botones">
+                    Restablecer
+                </button>
+            </div>
+        </form>
+    </div>
+    </body>
+</html>
