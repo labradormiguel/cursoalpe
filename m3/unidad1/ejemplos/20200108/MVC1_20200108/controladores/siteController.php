@@ -67,22 +67,34 @@ class siteController extends Controller{
     ]);
     }
     
-    public function ejercicio3Accion(){
+    public function ejercicio3Accion($objeto){
       
-        $numeros = [2,3,6,4,9,11,12,7,5,1,8];
         $media = 0;
         $mediana = 0;
         $moda = 0;
         $desviacion = 0;
         
-        $media = "La media es: " . $this->getMedia;
         
-        $this->render([
-          "vista"=>"ejercicio3",
-          "resultado"=>"media",
-          "pie"=> $this->miPie,
-          "menu"=>(new \clases\Menu($this->miMenu,"Ejercicio 3"))->html()
-    ]);
+        if(empty($objeto->getValores())){
+            $this->render([
+                "vista"=>"Ejercicio3",
+                "pie"=> $this->miPie,
+                "menu"=>(new \clases\Menu($this->miMenu,"Ejercicio 3"))->html()
+            ]);
+        }else{
+            
+        
+            //$media = new \clases\Media($objeto->getValores['numeros']);
+            $media = new \clases\Media($_GET['numeros']);
+
+            $this->render([
+              "vista"=>"resultadoEjercicio3",
+              "resultado"=>$media->getMedia(),
+              "pie"=> $this->miPie,
+              "menu"=>(new \clases\Menu($this->miMenu,"Ejercicio 3"))->html()
+            ]);
+        }
+    
     }
     
 }

@@ -74,6 +74,13 @@ function circulo($px,$py,$crelleno){
         $color = $_GET["ncolor"];
         $fondo = $_GET["nfondo"];
         
+        if(empty($x)){
+            $x=300;
+        }
+        if(empty($y)){
+            $y=300;
+        }
+        
         echo circulo($x, $y, $color);
         echo '<body style="background-color:'. $fondo .'">';
         
