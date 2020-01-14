@@ -9,14 +9,15 @@ class Mediana extends Numeros {
         return $this->mediana;
     }
 
-    public function setMediana($mediana) {
-        $this->mediana = $mediana;
-        return $this;
+    public function setMediana() {
+        sort($this->valores);
+        $this->mediana = count($this->getValores());
+        $this->mediana = $this->getValores()[floor(($this->mediana/2))];
     }
-
+    
     public function __construct($valores) {
         parent::__construct($valores);
-        $this->setMediana;
+        $this->setMediana();
     }
 
 }

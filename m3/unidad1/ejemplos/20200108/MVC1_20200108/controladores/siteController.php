@@ -82,17 +82,21 @@ class siteController extends Controller{
                 "menu"=>(new \clases\Menu($this->miMenu,"Ejercicio 3"))->html()
             ]);
         }else{
-            
-        
-            //$media = new \clases\Media($objeto->getValores['numeros']);
+                    
             $media = new \clases\Media($_GET['numeros']);
-
+            $mediana = new \clases\Mediana($_GET['numeros']);
+            $moda = new \clases\Moda($_GET['numeros']);
+            
             $this->render([
               "vista"=>"resultadoEjercicio3",
-              "resultado"=>$media->getMedia(),
+              "resultado1"=>$media->getMedia(),
+              "resultado2"=>$mediana->getMediana(),
+              "resultado3"=>$moda->getModa(),
+              "resultado4"=>$media->getMedia(),
               "pie"=> $this->miPie,
               "menu"=>(new \clases\Menu($this->miMenu,"Ejercicio 3"))->html()
             ]);
+               
         }
     
     }

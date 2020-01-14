@@ -12,6 +12,12 @@ desviacion tipica
 
 <?php
 
-echo "La media es: ".$this->resultado; ?>
+echo "La media es: " . $this->resultado1;
+echo "<br />";
+echo "La mediana es: " . $this->resultado2;
+echo "<br />";
+echo "La moda es: " . $this->resultado3 . "*";
+echo "<br />";
+echo "La desviación típica es: " . $this->resultado4 . "*"; ?>
 </div>
 </div>
