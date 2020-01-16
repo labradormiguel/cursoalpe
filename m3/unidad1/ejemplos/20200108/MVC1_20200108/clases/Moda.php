@@ -11,15 +11,16 @@ class Moda extends Numeros {
     }
 
     public function setModa() {
-        $salida = arsort(array_count_values($this->valores()));
-        $repeticionesMaximas = max($salida);
+        arsort($this->valores);
+        $this->moda = array_count_values($this->getValores());        
+        /*$repeticionesMaximas = max($salida);
         $this->moda=[];
         foreach ($salida as $numeros => $repes) {
             if($repes==$repeticionesMaximas){
                 $this->moda[]=$numeros;
             }
 
-        }
+        }*/
     }
 
     public function __construct($valores) {
